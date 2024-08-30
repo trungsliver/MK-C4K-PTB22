@@ -1,28 +1,28 @@
-# # Biến số - Phép gán
-#     # Biến số: dùng để lưu trữ dữ liệu, có thể thay đổi trong khi lập trình
-#     # Phép gán: dùng để gán giá trị cho biến số: [Tên biến] = [Giá trị]
-# x = 10
-# a, b, c = 1, 2, 3
-# # print(x, a, b, c)
+# Biến số - Phép gán
+    # Biến số: dùng để lưu trữ dữ liệu, có thể thay đổi trong khi lập trình
+    # Phép gán: dùng để gán giá trị cho biến số: [Tên biến] = [Giá trị]
+x = 10
+a, b, c = 1, 2, 3
+# print(x, a, b, c)
 
-# # Data Types - Kiểu dữ liệu
-#     # String - Chuỗi ký tự / Xâu ký tự
-# name = 'Duc Trung'
-#     # Interger - Int: Số nguyên
-# age = 25
-#     # Float: Số thực, số có phần thập phân
-# score = 9.5
-#     # Boolean: True / False (đúng / sai)
-# male = True
+# Data Types - Kiểu dữ liệu
+    # String - Chuỗi ký tự / Xâu ký tự
+name = 'Duc Trung'
+    # Interger - Int: Số nguyên
+age = 25
+    # Float: Số thực, số có phần thập phân
+score = 9.5
+    # Boolean: True / False (đúng / sai)
+male = True
 
-# # Kiểm tra kiểu dữ liệu - type()
-# print(type(name), type(age), type(score), type(male))
+# Kiểm tra kiểu dữ liệu - type()
+print(type(name), type(age), type(score), type(male))
 
-# # Xác định kiểu dữ liệu khi nhập
-# teacher = str(input('Nhập tên giáo viên của bạn: '))
-# year = int(input('Nhập năm sinh của bạn: '))
-# weight = float(input('Nhập cân nặng của bạn: '))
-# female = bool(input('Bạn có phải là nữ không: '))
+# Xác định kiểu dữ liệu khi nhập
+teacher = str(input('Nhập tên giáo viên của bạn: '))
+year = int(input('Nhập năm sinh của bạn: '))
+weight = float(input('Nhập cân nặng của bạn: '))
+female = bool(input('Bạn có phải là nữ không: '))
 
 # ========== Bài tập ==========
 # Bài 1: Chuyển đổi từ USD sang VND
