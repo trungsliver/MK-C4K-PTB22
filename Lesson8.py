@@ -5,27 +5,27 @@
 arr = []    # Danh sách rỗng - không có phần tử nào
 arr2 = ['Bao Son', 'Quang Huy', 'Khoi Nguyen', 'Thanh Tung']
     # Hàm len() - trả về số lượng phần tử danh sách
-# print(len(arr))
-# print(len(arr2))
+print(len(arr))
+print(len(arr2))
 
-# # Read - Duyệt, hiện phần tử danh sách
-#     # Hiện phần tử bằng chỉ số index (đếm từ 0)
-# print(arr2[2])
-#     # Hiện phần tử cuối cùng (index = -1)
-# print(arr2[-1])
+# Read - Duyệt, hiện phần tử danh sách
+    # Hiện phần tử bằng chỉ số index (đếm từ 0)
+print(arr2[2])
+    # Hiện phần tử cuối cùng (index = -1)
+print(arr2[-1])
 
-#     # Duyệt và hiện phần tử danh sách
-#         # Cách 1: dùng cả index và value
-# for i in range(len(arr2)):
-#     print(f'[{i}] {arr2[i]}')
-#         # Cách 2: chỉ dùng value
-# for item in arr2:
-#     print(item)
-#         # Cách 3: dùng hàm có sẵn
-# for index, item in enumerate(arr2):
-#     print(f'[{index}] {item}')
-#         # Cách 4: chỉ dùng để test
-# print(arr2)
+    # Duyệt và hiện phần tử danh sách
+        # Cách 1: dùng cả index và value
+for i in range(len(arr2)):
+    print(f'[{i}] {arr2[i]}')
+        # Cách 2: chỉ dùng value
+for item in arr2:
+    print(item)
+        # Cách 3: dùng hàm có sẵn
+for index, item in enumerate(arr2):
+    print(f'[{index}] {item}')
+        # Cách 4: chỉ dùng để test
+print(arr2)
 
 # Update - chỉnh sửa danh sách
     # Thêm phần tử vào cuối danh sách - append(value)
@@ -51,8 +51,8 @@ num_list.sort()
 num_list.sort(reverse=True)
 
 # # Tìm phần tử lớn nhất & nhỏ nhất
-# print('Phần tử lớn nhất:', max(num_list))
-# print('Phần tử nhỏ nhất:', min(num_list))
+print('Phần tử lớn nhất:', max(num_list))
+print('Phần tử nhỏ nhất:', min(num_list))
 
 # ================= Luyện tập ==================
 # Bài 1: Nhập vào 1 số nguyên dương n
